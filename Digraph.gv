@@ -1,0 +1,77 @@
+digraph {
+	Z2Z5Z1Z4Z9Z7Z8Z10Z3Z6 [label="Z2Z5Z1Z4Z9Z7Z8Z10Z3Z6
+1.0
+"]
+	Z2Z5Z1 [label="Z2Z5Z1
+0.577
+0"]
+	Z2Z5Z1Z4Z9Z7Z8Z10Z3Z6 -> Z2Z5Z1 [label=0]
+	Z2 [label="Z2
+0.27
+00"]
+	Z2Z5Z1 -> Z2 [label=0]
+	Z5Z1 [label="Z5Z1
+0.307
+01"]
+	Z2Z5Z1 -> Z5Z1 [label=1]
+	Z5 [label="Z5
+0.16
+010"]
+	Z5Z1 -> Z5 [label=0]
+	Z1 [label="Z1
+0.147
+011"]
+	Z5Z1 -> Z1 [label=1]
+	Z4Z9Z7Z8Z10Z3Z6 [label="Z4Z9Z7Z8Z10Z3Z6
+0.42300000000000004
+1"]
+	Z2Z5Z1Z4Z9Z7Z8Z10Z3Z6 -> Z4Z9Z7Z8Z10Z3Z6 [label=1]
+	Z4Z9Z7 [label="Z4Z9Z7
+0.166
+10"]
+	Z4Z9Z7Z8Z10Z3Z6 -> Z4Z9Z7 [label=0]
+	Z4 [label="Z4
+0.1
+100"]
+	Z4Z9Z7 -> Z4 [label=0]
+	Z9Z7 [label="Z9Z7
+0.066
+101"]
+	Z4Z9Z7 -> Z9Z7 [label=1]
+	Z9 [label="Z9
+0.038
+1010"]
+	Z9Z7 -> Z9 [label=0]
+	Z7 [label="Z7
+0.028
+1011"]
+	Z9Z7 -> Z7 [label=1]
+	Z8Z10Z3Z6 [label="Z8Z10Z3Z6
+0.257
+11"]
+	Z4Z9Z7Z8Z10Z3Z6 -> Z8Z10Z3Z6 [label=1]
+	Z8 [label="Z8
+0.146
+110"]
+	Z8Z10Z3Z6 -> Z8 [label=0]
+	Z10Z3Z6 [label="Z10Z3Z6
+0.111
+111"]
+	Z8Z10Z3Z6 -> Z10Z3Z6 [label=1]
+	Z10 [label="Z10
+0.062
+1110"]
+	Z10Z3Z6 -> Z10 [label=0]
+	Z3Z6 [label="Z3Z6
+0.049
+1111"]
+	Z10Z3Z6 -> Z3Z6 [label=1]
+	Z3 [label="Z3
+0.025
+11110"]
+	Z3Z6 -> Z3 [label=0]
+	Z6 [label="Z6
+0.024
+11111"]
+	Z3Z6 -> Z6 [label=1]
+}
